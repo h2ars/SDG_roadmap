@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout13"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_border"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout12">
+
+        <ImageView
+            android:id="@+id/imageView46"
+            android:layout_width="100dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/inc" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="146dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:text="Increasing"
+            app:backgroundTint="@color/blue_sdg" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout12"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_border"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7">
+
+        <ImageView
+            android:id="@+id/imageView45"
+            android:layout_width="100dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/dec" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="146dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:text="Decreasing"
+            app:backgroundTint="@color/blue_sdg" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout14"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_border"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout13">
+
+        <ImageView
+            android:id="@+id/imageView47"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/moderately_imp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="146dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:text="moderately Improving"
+            app:backgroundTint="@color/blue_sdg" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout15"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_border"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout14">
+
+        <ImageView
+            android:id="@+id/imageView48"
+            android:layout_width="100dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/stag" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="146dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:text="Stagnating"
+            app:backgroundTint="@color/blue_sdg" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_border"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout15">
+
+        <ImageView
+            android:id="@+id/imageView49"
+            android:layout_width="100dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/na" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="146dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:text="Data Not Available"
+            app:backgroundTint="@color/blue_sdg" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="SDG Status as of 2022"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:backgroundTint="@color/blue_sdg" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Notation Used is given below"
+        app:backgroundTint="@color/blue_sdg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
